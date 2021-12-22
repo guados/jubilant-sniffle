@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "nombre": "Set Coneja Mamá y su Hija con Vestidos y Accesorios de la Ciudad",
+      "precio": 4940,
+      "imagen": "img-prods/1.jpg",
+      "alt": "mama-coneja",
+      "desc": "La mamá y la niña Conejo de Chocolate, salieron a dar un paseo por la ciudad, llevan elegantes vestidos de satén, broches dorados, sombreros y sus bolsos favoritos."
+    },{
+        "id": 2,
+        "nombre": "Panadería Con Horno De Ladrillo",
+        "precio": 16190,
+        "imagen": "img-prods/2.jpg",
+        "alt": "panaderia",
+        "desc": "Panadería con Horno de Ladrillo y figura de la Mamá de la familia de Erizos"
+    },{
+        "id": 3,
+        "nombre": "Set Madre de la Familia de Conejos de chocolate en la cocina",
+        "precio": 5100,
+        "imagen": "img-prods/3.jpg",
+        "alt": "set-madre",
+        "desc": "Mamá de la Familia de Conejos de Chocolate con heladera."
+    },{
+        "id": 4,
+        "nombre": "Familia de Pandas Rojos",
+        "precio": 5890,
+        "imagen": "img-prods/4.jpg",
+        "alt": "set-pandas",
+        "desc": "Familia de Pandas Rojos, incluye tres figuras entre 6 y 9 cms. de altura."
+    },{
+        "id": 5,
+        "nombre": "Lulu - La hermana mayor de la familia de Gatos de Seda",
+        "precio": 2990,
+        "imagen": "img-prods/5.jpg",
+        "alt": "lulu",
+        "desc": "Lulu Golightly, es la hermana mayor de Tiffany y Toby. Es maquilladora profesional y trabaja en la ciudad. Sus clientas dicen que tiene poderes mágicos: con el movimiento de una brocha y un poco de rubor ¡se transforman para la fiesta!."
+    },{
+        "id": 6,
+        "nombre": "Amigos De La Escuela",
+        "precio": 4990,
+        "imagen": "img-prods/6.jpg",
+        "alt": "amigos",
+        "desc": "Rebecca y Ralph están listos para su primer día, todas las mañanas caminan juntos por el prado rumbo a la escuela. Lucen adorables con sus pantalones a cuadros, camisa blanca, corbata roja y zapatos marrones."
+    },{
+        "id": 7,
+        "nombre": "Set Padre Familia Conejos de chocolate en su living",
+        "precio": 5690,
+        "imagen": "img-prods/7.jpg",
+        "alt": "padre-familia",
+        "desc": "Papá de la Familia de Conejos de Chocolate con sillón."
+    },{
+        "id": 8,
+        "nombre": "Combo Carro de Panchos",
+        "precio": 11690,
+        "imagen": "img-prods/8.jpg",
+        "alt": "carro-panchos",
+        "desc": "Carro de Panchos con Figura del Hermano de la Familia de Conejos de Chocolate"
+    },{
+        "id": 9,
+        "nombre": "Set Hermano de la Familia de Conejos de Chocolate en el baño",
+        "precio": 5690,
+        "imagen": "img-prods/9.jpg",
+        "alt": "hermano-baño",
+        "desc": "Hermano de la Familia de Conejos de Chocolate con baño."
+    }
+]

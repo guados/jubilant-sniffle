@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cont_navbar{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background-color: #A31816;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
+    font-family: "Libre Baskerville", sans-serif;
+
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.menu_click{
+    cursor: pointer;
+    font-size: 1rem;
+    color: chocolate;
+    transition: .5s ease-in-out;
+}
+
+.menu_nav{
+    position: fixed;
+    z-index: 0;
+    top: -10rem;
+
+    background-color: chocolate;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    transition: .5s ease-in-out;
+}
+
+.op_nav{
+    cursor: pointer;
+}
+
+.bajar_menu_nav{
+    top: 4.7rem;
+}
+
+.menu_active{
+    color: black;
+}
+
+/*HOME*/
+.section_home{
+    margin-top: 4.7rem;
+    background-image: url(../imgs/bg3.jpg);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.cont_img_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*SECCION PRODUCTOS*/
+.section_prods{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cont_ul_prods{
+    width: 60%;
+}
+
+.ul_prods{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cont_img_card{
+    display: flex;
+    justify-content: center;
+}
+
+.img_card{
+    width: 80%;
+}
+
+.card_prod{
+    cursor: pointer;
+    width: 97%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 1px rgba(255, 255, 255, 0.4) solid;
+    border-bottom: 1px rgba(182, 182, 182, 0.3) solid;
+    border-radius: 1rem;
+    
+    font-family: "Comic Neue", sans-serif;
+
+    transition: .5s ease-in-out;
+
+}
+
+.card_prod:hover{
+    border: 1px rgba(165, 42, 42, 0.1) solid;
+    border-radius: 1rem;
+    box-shadow: 8px 8px 16px rgba(165, 177, 198, 0.8), -8px -8px 16px rgba(255, 255, 255, 0.8);
+}
+
+.titulo_card{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.cont_precio{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn_comprar{
+    cursor: pointer;
+    color: white;
+    background-color: #A31816;
+    
+    border: none;
+    border-radius: .8rem;
+    padding: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-family: "Comic Neue", sans-serif;
+}
+
+.swal2-title{
+    font-family: "Comic Neue", sans-serif;
+    font-size: 1.1rem !important;
+}
+
+.precio_card{
+    text-align: center;
+    color: brown;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-top: .4rem;
+}
+
+.footer{
+    margin-top: 2rem;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+}
+
+.cart_icon{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    padding: .6rem;
+    background-color: #A31816;
+    color: white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cant_cart{
+    position: fixed;
+    bottom: 4rem;
+    right: 1rem;
+    padding: .6rem;
+    width: 19px;
+    background-color: #A31816;
+    color: white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-none{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
